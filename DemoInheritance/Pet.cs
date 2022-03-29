@@ -21,5 +21,19 @@ namespace DemoInheritance
             owner = "Human";
             System.Console.WriteLine("Pet default constructor");
         }
+
+        public Pet(string kind, int age, string owner) : base(kind, age)
+        {
+            // Kind = kind;
+            // Age = age;
+            Owner = owner;
+        }
+
+        public void ShowInfo()
+        {
+            System.Console.WriteLine("Pet kind: " + Kind);
+            System.Console.WriteLine("Pet age: " + Age);
+            System.Console.WriteLine("Pet owner: " + owner);
+        }
     }
 }

@@ -12,9 +12,9 @@ namespace DemoInheritance
             Pet cat = new Pet();
             cat.ShowInfo();
 
-            cat.Kind = "Cat";
-            cat.Age = 10;
-            cat.ShowInfo();
+            Pet dog = new Pet("Dog", 4, "John");
+            dog.ShowInfo();
         }
+
     }
 }
