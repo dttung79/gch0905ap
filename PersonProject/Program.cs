@@ -6,7 +6,14 @@ namespace PersonProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person s = new Person();
+            s.ShowInfo();
+
+            s = new Student();
+            s.ShowInfo();
+
+            s = new Teacher();
+            s.ShowInfo();
         }
     }
 }

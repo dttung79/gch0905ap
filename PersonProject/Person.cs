@@ -30,7 +30,7 @@ namespace PersonProject
             Age = age;
         }
 
-        public void ShowInfo()
+        public virtual void ShowInfo()
         {
             System.Console.WriteLine("Name: " + name);
             System.Console.WriteLine("Age: " + age);
