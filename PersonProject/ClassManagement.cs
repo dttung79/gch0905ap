@@ -13,7 +13,7 @@ namespace PersonProject
         }
         public void Run()
         {
-             while (true)
+            while (true)
             {
                 PrintMenu();
                 int choice = GetChoice();
