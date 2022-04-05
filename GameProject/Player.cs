@@ -3,7 +3,7 @@ using System;
 
 namespace GameProject
 {
-    public class Player
+    public abstract class Player
     {
         public string Name { get; set; }
         public int Number { get; set; }
@@ -23,10 +23,6 @@ namespace GameProject
             Random rd = new Random();
             return rd.Next(1, 10);
         }
-        public virtual int GuessNumber()
-        {
-            Random rd = new Random();
-            return rd.Next(1, 10);
-        }
+        public abstract int GuessNumber();  // abstract method
     }
 }

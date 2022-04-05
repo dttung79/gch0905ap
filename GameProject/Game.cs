@@ -46,6 +46,7 @@ namespace GameProject
             else 
             {
                 System.Console.WriteLine("Correct guess.");
+                System.Console.WriteLine("Player " + player2.Name + " win!");
                 gameOver = true;
             }
             

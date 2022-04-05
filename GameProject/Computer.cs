@@ -21,8 +21,8 @@ namespace GameProject
 
         public Computer()
         {
-            lastNumber = -1;
-            lastGuess = 0;
+            lastNumber = 0; // -1
+            lastGuess = LESS_THAN; // 0
             lower = 1;
             upper = 10;
             Name = "Computer";
@@ -30,8 +30,8 @@ namespace GameProject
 
         public Computer(string name)
         {
-            lastNumber = -1;
-            lastGuess = 0;
+            lastNumber = 0;
+            lastGuess = LESS_THAN;
             lower = 1;
             upper = 10;
             Name = name;
